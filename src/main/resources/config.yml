@@ -1,0 +1,43 @@
+# Wait time after a Bedrock player joins before fetching the skin (ticks, 20 ticks = about 1 second)
+# 統合版のプレイヤーが参加してから、スキンを取得するまでの待ち時間(tick。20 tick で約 1 秒)
+join-delay-ticks: 15
+
+# Number of retries when the skin could not be fetched (on join only, not for the command)
+# スキンを取得できなかったときに、取り直す回数(参加時のみ。コマンドでは取り直さない)
+retry-count: 2
+
+# Interval between retries (seconds)
+# 取り直すまでの間隔(秒)
+retry-interval-seconds: 5
+
+# Language of messages: en (English) or ja (Japanese). Messages can be edited below.
+# To use another language, add a section such as "fr:" under messages and set language: fr
+# (missing messages are shown in English).
+# メッセージの言語: en(英語)か ja(日本語)。文は下で書き換えられます
+# ほかの言語を使うときは、messages の下に「fr:」などを書き足して language: fr にします
+# (書いていない項目は英語で表示します)
+# {player} is replaced with the player name, {reason} with the reason of the failure.
+# {player} はプレイヤー名に、{reason} は失敗の理由に置き換わります
+language: en
+
+messages:
+  en:
+    op-only: "This command can only be used by operators."
+    player-not-online: "{player} is not online."
+    console-needs-player: "Please specify a player name from the console."
+    not-bedrock: "{player} is not a Bedrock Edition player."
+    fetching: "Fetching the skin of {player}..."
+    applied: "Applied the skin of {player}."
+    already-applied: "The skin of {player} is already applied."
+    fetch-failed: "Could not fetch the skin of {player} ({reason})."
+    not-registered: "the skin is not registered yet"
+  ja:
+    op-only: "このコマンドは OP のみ使えます。"
+    player-not-online: "{player} はオンラインではありません。"
+    console-needs-player: "コンソールからはプレイヤー名を指定してください。"
+    not-bedrock: "{player} は統合版のプレイヤーではありません。"
+    fetching: "{player} のスキンを取得しています..."
+    applied: "{player} のスキンを適用しました。"
+    already-applied: "{player} のスキンは既に適用されています。"
+    fetch-failed: "{player} のスキンを取得できませんでした({reason})。"
+    not-registered: "スキンが登録されていません"

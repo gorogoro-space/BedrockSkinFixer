@@ -1,0 +1,12 @@
+name: BedrockSkinFixer
+version: '${version}'
+api-version: '1.21'
+description: Fixes skins of Bedrock Edition players.
+author: kubotan
+main: space.gorogoro.bedrockskinfixer.BedrockSkinFixer
+depend: [floodgate]
+
+commands:
+  skinfix:
+    description: Re-fetches and applies the skin of a Bedrock Edition player (OP only).
+    usage: /skinfix [player]
