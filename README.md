@@ -1,6 +1,7 @@
 # BedrockSkinFixer
 [![Paper 1.21](https://img.shields.io/badge/Paper-1.21-brightgreen.svg)](https://fill-ui.papermc.io/projects/paper)
 [![GitHub release](https://img.shields.io/github/release/gorogoro-space/BedrockSkinFixer.svg)](https://github.com/gorogoro-space/BedrockSkinFixer/releases)
+[![Hangar](https://img.shields.io/badge/Hangar-download-blue.svg)](https://hangar.papermc.io/kubotan/BedrockSkinFixer)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/gorogoro-space/BedrockSkinFixer/issues)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/gorogoro-space/BedrockSkinFixer/blob/main/LICENSE)
 
@@ -14,9 +15,9 @@ This plugin fixes skins of Bedrock Edition players.
 - [Floodgate](https://geysermc.org/wiki/floodgate/)
 
 # Installation method
-Please place the .jar file in the Paper plugins folder.
+Download the .jar file from [Hangar](https://hangar.papermc.io/kubotan/BedrockSkinFixer) or [GitHub Releases](https://github.com/gorogoro-space/BedrockSkinFixer/releases), and place it in the Paper plugins folder.
 
-.jar ファイルを Paper の plugins フォルダに置き、サーバーを再起動してください。
+.jar ファイルを [Hangar](https://hangar.papermc.io/kubotan/BedrockSkinFixer) か GitHub の [Releases](https://github.com/gorogoro-space/BedrockSkinFixer/releases) からダウンロードし、Paper の plugins フォルダに置き、サーバーを再起動してください。
 
 # Features
 - 統合版のプレイヤーが参加すると、少し待ってから Global API でスキンを取得し、そのプレイヤーに適用します
